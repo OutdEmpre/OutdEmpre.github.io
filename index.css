@@ -12,11 +12,11 @@ body{
 /*  */
 #container{
     display: block;
-    width: 50vw; 
-    height: 740px; 
+    width: 588px; 
+    height: 712px; 
     margin: auto;
 
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 
 #profile{
@@ -45,19 +45,22 @@ p.user{
 
 div#mediaLinks{
     display: flex;
-    /* border: 1px solid red;  */
-    align-items: center;
-    flex-direction: column;  
+    flex-direction: column;
     gap: 16px;
-    padding: 30px;
+    align-items: flex-start;
+    padding: 24px 0px 24px;  
+
+
+    border: 1px solid red;
 }
 div#mediaLinks button{
-    background-color: rgba(255, 255, 255, 0.089);
+    background-color: rgba(255, 255, 255, 0.089); 
+    border: 1px solid rgba(255, 255, 255, 0.507);
     border: none;   
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.356);
-    height: 45px;
-    width: 50vw;
+    padding: 16px 24px;
+    width: 100%;
+    
 }
 
 div#mediaLinks button:hover{
@@ -73,7 +76,7 @@ div#mediaLinks a{
     padding: 2px;
     font-size: 16px;
     color: rgba(251, 251, 252, 0.767);
-    text-decoration: none;    
+    text-decoration: none;  
 }
 
 footer.icons{ 
