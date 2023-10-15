@@ -16,7 +16,7 @@ body{
     height: 712px; 
     margin: auto;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 #profile{
@@ -51,7 +51,7 @@ div#mediaLinks{
     padding: 24px 0px 24px;  
 
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 div#mediaLinks button{
     background-color: rgba(255, 255, 255, 0.089); 
