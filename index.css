@@ -65,12 +65,19 @@ ul li a:hover{
 }
 
 
-footer.icons{ 
-    display: flex; 
+footer.icons{
+    display: flex;
+    width: 360px; 
+    height: 200px;
+    
+    justify-content: center;
+    align-items: end; 
     gap: 30px;
     color: rgba(255, 255, 255, 0.575);
-    width: max-content;
     
     
-    margin: 20px auto;
+    
+    margin: 4em auto;
+ 
+   
 }
