@@ -11,6 +11,8 @@ body{
 /*  */
 #container{
     width: 360px;
+    max-width: 590px;
+    
     margin: 56px auto; 
 
 }
@@ -23,7 +25,7 @@ body{
 
 p.user{
     text-decoration: none;
-    margin: 20px auto;
+    margin: 10px auto 3em;
     width: min-content;
     font-size: 1em;
     color: rgba(255, 255, 255, 0.781);  
