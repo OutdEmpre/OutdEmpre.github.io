@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Mohave&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
-    font-family: Mohave;
+    
+   
 }
 body{
     background: url(assets/background2.jpg);
@@ -50,6 +51,7 @@ ul.social-media{
    margin-top: 20px;
 
    list-style: none;
+   font-family: Heebo;
    
 }
 
@@ -59,8 +61,10 @@ ul.social-media li a{
     padding: 16px 24px;
 
     background: rgba(255, 255, 255, 0.178);
+    border: 0.5px solid rgba(255, 255, 255, 0.658);
+    border-radius: 10px;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.5em;
     
 
 
@@ -70,7 +74,7 @@ ul.social-media li a{
 
 ul.social-media li a:hover{
     background-color: rgba(255, 255, 255, 0.226);
-    border: 0.5px solid rgba(255, 255, 255, 0.397);
+   
 }
 
 .links ul{
@@ -80,7 +84,7 @@ ul.social-media li a:hover{
 }
 
 .links ul li, a{
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.74);
     font-size: 1.32em;
     font-family: Fugaz One;
 
@@ -88,6 +92,6 @@ ul.social-media li a:hover{
 }
  
 .links ul li a:hover{
-    color: rgba(0, 0, 0, 0.808);
+    color: rgba(0, 0, 0, 0.349);
 
 }
