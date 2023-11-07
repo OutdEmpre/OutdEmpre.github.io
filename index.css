@@ -84,7 +84,7 @@ ul.social-media li a:hover{
 }
 
 .links ul li, a{
-    color: rgba(0, 0, 0, 0.74);
+    color: rgba(255, 255, 255, 0.527);
     font-size: 1.32em;
     font-family: Fugaz One;
 
@@ -92,6 +92,7 @@ ul.social-media li a:hover{
 }
  
 .links ul li a:hover{
-    color: rgba(0, 0, 0, 0.349);
+    color: rgb(255, 255, 255);
+
 
 }
