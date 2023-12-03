@@ -10,7 +10,7 @@
    
 }
 body{
-    background: url(assets/background_alt.jpg);
+    background: url(assets/wallpaper.jpg);
 }
 
 div.container{
@@ -60,10 +60,10 @@ ul.social-media li a{
     justify-content: center;
     padding: 16px 24px;
 
-    background: rgba(255, 255, 255, 0.644);
-    border: 0.5px solid rgba(0, 0, 0, 0.979);
+    background: rgba(255, 255, 255, 0.521);
+    border: 2px solid rgba(0, 0, 0, 0.979);
     border-radius: 10px;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 1.5em;
     
 
@@ -73,7 +73,7 @@ ul.social-media li a{
 }
 
 ul.social-media li a:hover{
-    background-color: rgba(255, 255, 255, 0.226);
+    background-color: rgba(255, 255, 255, 0.637);
    
 }
 
@@ -84,7 +84,7 @@ ul.social-media li a:hover{
 }
 
 .links ul li, a{
-    color: rgba(0, 0, 0, 0.945);
+    color: rgba(255, 255, 255, 0.548);
     font-size: 1.32em;
     font-family: Fugaz One;
 
