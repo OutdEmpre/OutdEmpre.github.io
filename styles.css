@@ -4,5 +4,24 @@
 }
 
 body{
-    
+   background: url(assets/wallpaper.jpg) no-repeat;
 }
+
+.container{
+    display: flex;
+    background-color: rgb(226, 225, 225);
+    flex-direction: column;
+    justify-content: end;
+    width: 40vw;
+    height: 50vh;
+    box-shadow: 10px 10px rgb(150, 150, 150);
+
+    margin: 50px auto;
+}
+.btn_back a{
+    text-decoration: none;
+     
+}
+/* .btn_back{
+    margin-left: ;
+} */
