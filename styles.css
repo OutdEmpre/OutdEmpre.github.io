@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 *{
+    font-family: Noto Serif;
     margin: 0px;
     padding: 0px;
 }
@@ -9,19 +11,34 @@ body{
 
 .container{
     display: flex;
-    background-color: rgb(226, 225, 225);
-    flex-direction: column;
-    justify-content: end;
-    width: 40vw;
-    height: 50vh;
-    box-shadow: 10px 10px rgb(150, 150, 150);
+    width: 50em;
+    height: 30em;
+    justify-content: center;
 
     margin: 50px auto;
+
+    /* border: 1px solid red; */
+    background-color: rgb(226, 225, 225); 
+    border: 1px solid black;
+    border-radius: 10px; 
+    box-shadow: 10px 10px rgb(110, 110, 110);
+
+    
 }
 .btn_back a{
-    text-decoration: none;
-     
+    text-decoration: none;   
 }
+.allContent{
+
+}
+/* .botao{
+    display: flex;
+    border: 1px solid red;
+    align-items: end;
+    justify-content: ;
+        
+    
+} */
 /* .btn_back{
     margin-left: ;
 } */
