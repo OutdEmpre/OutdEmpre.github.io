@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+*::selection{
+    background-color: rgba(175, 173, 173, 0.699);
+}
+
 *{
+
+    
     font-family: Noto Serif;
     margin: 0px;
     padding: 0px;
@@ -11,14 +18,16 @@ body{
 
 .container{
     display: flex;
-    width: 50em;
-    height: 30em;
+    width: 90%;
+    max-width: 588px;
+    height: 52em;
     justify-content: center;
 
-    margin: 50px auto;
+    font-size: 0.9em;
+    margin: 20px auto;
 
     /* border: 1px solid red; */
-    background-color: rgb(226, 225, 225); 
+    background-color: rgb(255, 255, 255); 
     border: 1px solid black;
     border-radius: 10px; 
     box-shadow: 10px 10px rgb(110, 110, 110);
@@ -29,16 +38,32 @@ body{
     text-decoration: none;   
 }
 .allContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
-/* .botao{
+
+.contact{
     display: flex;
-    border: 1px solid red;
-    align-items: end;
-    justify-content: ;
-        
+    flex-direction: column;
+    align-items: center;
+    justify-content: right;
+    width: 20em;
+    height: 11em;
     
-} */
-/* .btn_back{
-    margin-left: ;
-} */
+
+
+    border: 1px solid gray;
+}
+
+.btn{
+    display: block;
+    font-size: 1.5em;
+    border-radius: 10px;
+
+    
+}
+.btn a{
+    text-decoration: none;
+}
